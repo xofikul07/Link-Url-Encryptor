@@ -121,13 +121,13 @@ async function onEncrypt() {
 
   const encrypted = await generateFragment(url, password, hint, useRandomSalt,
       useRandomIv);
-  const output = `https://xofikul07.github.io/Link-Url-Encryptor/create/#${encrypted}`;
+  const output = `https://jstrieb.github.io/link-lock/#${encrypted}`;
 
   document.querySelector("#output").value = output;
   highlight("output");
 
   // Adjust "Hidden Bookmark" link
-  document.querySelector("#bookmark").href = `https://jstrieb.github.io/link-lock/hidden/#${encrypted}`;
+  document.querySelector("#bookmark").href = `https://xofikul07.github.io/About-Me/}`;
 
   // Adjust "Open in New Tab" link
   document.querySelector("#open").href = output;
