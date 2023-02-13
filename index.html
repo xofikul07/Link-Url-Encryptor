@@ -24,33 +24,29 @@
 <body onload="main()">
   <!-- Explanation for those who do not have JavaScript enabled -->
   <noscript>
-  <div class="red-border">
-    <p>If you are seeing this, it means that you have JavaScript disabled. Please enable JavaScript to access the locked link.</p>
-
-    <p>This application is entirely programmed in JavaScript. This was done intentionally, so that all encryption and decryption happens client-side. This means the code runs as a distributed application, relying only on GitHub Pages for infrastructure. It also means that no data about locked links is ever stored on a server. The code is designed to be auditable so users can investigate what is happening behind the scenes.</p>
-
-    <p>If you still want to run the application, I encourage you to clone the <a href="https://github.com/jstrieb/link-lock">source code on GitHub</a>. That way you can disable JavaScript only for trusted files on your local machine.</p>
-  </div>
+    <div class="red-border">
+  
+    </div>
   </noscript>
 
   <div class="form" style="display: none">
-    <p>Please enter the password to unlock the link.</p>
-    <p id="<strong>Admin Message : </strong>"></p>
+    <p>Please enter the password given by the admin here! Until you can enter the correct password, you will not be able to reach your target website.</p>
+    <p id="hint"><<strong>Admin Message :</strong></p>
 
     <hr />
 
     <label for="password">password</label>
     <input type="password" id="password" autofocus />
-    <button id="unlockbutton">Unlock link & Url</button>
+    <button id="unlockbutton">Unlock link & url and open this website </button>
   </div>
 
   <!-- Display errors in a big red box -->
   <div class="error red-border" style="display: none">
     <p id="errortext">Error</p>
     <button onclick="main()">Try again</button>
-    <a href="https://xofikul07.github.io/About-Me/"><button>Lock a link</button></a>
-    <a href="https://xofikul07.github.io/About-Me/" id="no-redirect" target="_blank"><button>Decrypt without redirect</button></a>
-    <a href="https://xofikul07.github.io/About-Me/" id="hidden" target="_blank"><button>Create hidden bookmark</button></a>
+    <a href="https://jstrieb.github.io/link-lock"><button>Lock a link</button></a>
+    <a href="https://jstrieb.github.io/link-lock/decrypt/" id="no-redirect" target="_blank"><button>Decrypt without redirect</button></a>
+    <a href="https://jstrieb.github.io/link-lock/hidden/" id="hidden" target="_blank"><button>Create hidden bookmark</button></a>
   </div>
 </body>
 
