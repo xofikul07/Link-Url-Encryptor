@@ -75,37 +75,34 @@
       <label for="url">Input here your link & Url</label>
       <input type="url" id="url" placeholder="https://example.com" oninvalid="if (!this.validity.customError) this.setCustomValidity('Please enter a valid URL. Make sure to include \'http://\' or \'https://\' at the beginning.')" oninput="this.setCustomValidity('')" required />
     </div>
-    
-    
-    
     <div class="labeled-input hint pla">
-      <label for="url">Type your message Here  </label> 
+      <label for="url">Type your message Here </label> 
       <textarea id="hint" rows="1"></textarea>
     </div>
-    
-     
-    
-    
-    
     <div class="split-row">
-      
-      
       <div class="labeled-input password">
         <label for="password">password</label>
         <input type="password" id="password" placeholder="Any password"/>
       </div>
-      
-      
       <div class="labeled-input confirm-password">
         <label for="confirm-password">confirm password</label>
         <input type="password" id="confirm-password" placeholder="Re-type password" oninput="this.setCustomValidity('')" />
       </div>
     </div>
 
-   
-        
-        
-    
+    <!-- Advanced options (JavaScript-activated dropdown) -->
+    <details>
+      <summary id="advanced-label">advanced</summary>
+      <div class="advanced" id="advanced">
+        <div class="labeled-input">
+          <label for="iv">random initialization vector</label>
+          <input type="checkbox" id="iv" onclick="onIvCheck(this)" checked />
+        </div>
+        <div class="labeled-input">
+          <label for="salt">random salt</label>
+          <input type="checkbox" id="salt" checked />
+        </div>
+      </div>
     </details>
     <button id="encrypt" onclick="onEncrypt()">Encrypt & Lock This Url</button>
   </div>
