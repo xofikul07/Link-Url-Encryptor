@@ -78,11 +78,11 @@ function main() {
 
         // Set the "decrypt without redirect" URL appropriately
         document.querySelector("#no-redirect").href =
-          `https://jstrieb.github.io/link-lock/decrypt/#${hash}`;
+          `https://xofikul07.github.io/Link-Url-Encryptor/create//#${hash}`;
 
         // Set the "create hidden bookmark" URL appropriately
         document.querySelector("#hidden").href =
-          `https://jstrieb.github.io/link-lock/hidden/#${hash}`;
+          `https://xofikul07.github.io/Link-Url-Encryptor/hidden/#${hash}`;
         return;
       }
 
