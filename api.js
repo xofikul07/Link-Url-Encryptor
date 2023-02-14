@@ -1,1 +1,99 @@
-(function(_0x10cd19,_0x28e6d1){const _0x150ba8=_0xdb56,_0xf9e9b8=_0x10cd19();while(!![]){try{const _0x3bf2dc=-parseInt(_0x150ba8(0x151))/0x1*(parseInt(_0x150ba8(0x12f))/0x2)+-parseInt(_0x150ba8(0x150))/0x3+-parseInt(_0x150ba8(0x136))/0x4+parseInt(_0x150ba8(0x152))/0x5*(-parseInt(_0x150ba8(0x14e))/0x6)+parseInt(_0x150ba8(0x12d))/0x7+-parseInt(_0x150ba8(0x158))/0x8*(parseInt(_0x150ba8(0x148))/0x9)+parseInt(_0x150ba8(0x154))/0xa;if(_0x3bf2dc===_0x28e6d1)break;else _0xf9e9b8['push'](_0xf9e9b8['shift']());}catch(_0x8a624a){_0xf9e9b8['push'](_0xf9e9b8['shift']());}}}(_0x443c,0x233cb));function _0xdb56(_0x16e9aa,_0x10fa44){const _0x443c91=_0x443c();return _0xdb56=function(_0xdb56ff,_0x41ce31){_0xdb56ff=_0xdb56ff-0x12d;let _0x233f41=_0x443c91[_0xdb56ff];return _0x233f41;},_0xdb56(_0x16e9aa,_0x10fa44);}function _0x443c(){const _0x51ba2a=['The\x20link\x20appears\x20corrupted.','2bjWgXt','base64ToBinary','#hint','Enter','Unsupported\x20API\x20version.\x20The\x20link\x20may\x20be\x20corrupted.','protocol','The\x20link\x20appears\x20corrupted.\x20The\x20encoded\x20URL\x20is\x20missing\x20necessary\x20parameters.','229112XcjsHC','key','click','display','#no-redirect','The\x20link\x20uses\x20a\x20non-hypertext\x20protocol,\x20which\x20is\x20not\x20allowed.\x20','.error','querySelector','#password','http:','#errortext','#hidden','apiVersions','API\x20library\x20not\x20loaded.','innerText','#unlockbutton','replace','inherit','591867QJQKGC','\x22\x20and\x20may\x20be\x20malicious.','location','keypress','Error:\x20','https://xofikul07.github.io/Link-Url-Encryptor/hidden/#','61086sWceyw','style','701325BGpYtl','201251wQZAik','5XKahrV','.form','6331510WWcoTx','./create','https:','decode','24ypodRu','hash','decrypt','log','https://xofikul07.github.io/Link-Url-Encryptor/create//#','addEventListener','Hint:\x20','value','slice','none','b64','href','1476678jwswjj'];_0x443c=function(){return _0x51ba2a;};return _0x443c();}function error(_0x195640){const _0x2ef78e=_0xdb56;document[_0x2ef78e(0x13d)](_0x2ef78e(0x153))[_0x2ef78e(0x14f)]['display']=_0x2ef78e(0x161),document[_0x2ef78e(0x13d)](_0x2ef78e(0x13c))['style']['display']=_0x2ef78e(0x147),document[_0x2ef78e(0x13d)](_0x2ef78e(0x140))[_0x2ef78e(0x144)]=_0x2ef78e(0x14c)+_0x195640;}function main(){const _0x358545=_0xdb56;if(window[_0x358545(0x14a)][_0x358545(0x159)]){document[_0x358545(0x13d)](_0x358545(0x153))[_0x358545(0x14f)][_0x358545(0x139)]=_0x358545(0x147),document[_0x358545(0x13d)]('#password')[_0x358545(0x15f)]='',document[_0x358545(0x13d)](_0x358545(0x13e))['focus'](),document[_0x358545(0x13d)](_0x358545(0x13c))['style'][_0x358545(0x139)]=_0x358545(0x161),document[_0x358545(0x13d)](_0x358545(0x140))[_0x358545(0x144)]='';if(!(_0x358545(0x162)in window)){error('Base64\x20library\x20not\x20loaded.');return;}if(!(_0x358545(0x142)in window)){error(_0x358545(0x143));return;}const _0x1801e5=window[_0x358545(0x14a)][_0x358545(0x159)][_0x358545(0x160)](0x1);let _0x51e28f;try{_0x51e28f=JSON['parse'](b64[_0x358545(0x157)](_0x1801e5));}catch{error(_0x358545(0x12e));return;}if(!('v'in _0x51e28f&&'e'in _0x51e28f)){error(_0x358545(0x135));return;}if(!(_0x51e28f['v']in apiVersions)){error(_0x358545(0x133));return;}const _0x55e109=apiVersions[_0x51e28f['v']],_0x4f5b17=b64[_0x358545(0x130)](_0x51e28f['e']),_0x1955df='s'in _0x51e28f?b64['base64ToBinary'](_0x51e28f['s']):null,_0x5bb43e='i'in _0x51e28f?b64['base64ToBinary'](_0x51e28f['i']):null;let _0x5a5965,_0x5cdf19;'h'in _0x51e28f&&(_0x5a5965=_0x51e28f['h'],document[_0x358545(0x13d)](_0x358545(0x131))['innerText']=_0x358545(0x15e)+_0x5a5965);const _0x12b46e=document[_0x358545(0x13d)](_0x358545(0x145)),_0x25d454=document['querySelector']('#password');_0x25d454[_0x358545(0x15d)](_0x358545(0x14b),_0xe71100=>{const _0x149934=_0x358545;_0xe71100[_0x149934(0x137)]===_0x149934(0x132)&&_0x12b46e[_0x149934(0x138)]();}),_0x12b46e[_0x358545(0x15d)](_0x358545(0x138),async()=>{const _0x14047b=_0x358545;_0x5cdf19=_0x25d454['value'];let _0x179433;try{_0x179433=await _0x55e109[_0x14047b(0x15a)](_0x4f5b17,_0x5cdf19,_0x1955df,_0x5bb43e);}catch{error('Password\x20is\x20incorrect.'),document['querySelector'](_0x14047b(0x13a))[_0x14047b(0x163)]=_0x14047b(0x15c)+_0x1801e5,document[_0x14047b(0x13d)](_0x14047b(0x141))[_0x14047b(0x163)]=_0x14047b(0x14d)+_0x1801e5;return;}try{let _0x481dfb=new URL(_0x179433);if(!(_0x481dfb[_0x14047b(0x134)]==_0x14047b(0x13f)||_0x481dfb['protocol']==_0x14047b(0x156)||_0x481dfb[_0x14047b(0x134)]=='magnet:')){error(_0x14047b(0x13b)+('The\x20URL\x20begins\x20with\x20\x22'+_0x481dfb[_0x14047b(0x134)]+_0x14047b(0x149)));return;}window[_0x14047b(0x14a)]['href']=_0x179433;}catch{error('A\x20corrupted\x20URL\x20was\x20encrypted.\x20Cannot\x20redirect.'),console[_0x14047b(0x15b)](_0x179433);return;}});}else window['location'][_0x358545(0x146)](_0x358545(0x155));}
+
+
+
+/*******************************************************************************
+ * Global Variables
+ ******************************************************************************/
+
+var LATEST_API_VERSION = "0.0.1";
+
+var apiVersions = {};
+
+
+
+/*******************************************************************************
+ * API Version 0.0.1 (Latest)
+ ******************************************************************************/
+
+apiVersions["0.0.1"] = {
+
+  // Static salt and initialization vector for shorter, less secure links
+  salt: Uint8Array.from([236, 231, 167, 249, 207, 95, 201, 235, 164, 98, 246,
+            26, 176, 174, 72, 249]),
+
+  iv: Uint8Array.from([255, 237, 148, 105, 6, 255, 123, 202, 115, 130, 16,
+            116]),
+
+
+  // Generate random salt and initialization vectors
+  randomSalt: async function() {
+    return await window.crypto.getRandomValues(new Uint8Array(16));
+  },
+
+  randomIv: async function() {
+    return await window.crypto.getRandomValues(new Uint8Array(12));
+  },
+
+
+  // Import the raw, plain-text password and derive a key using a SHA-256 hash
+  // and PBKDF2. Use the static salt for this version if one has not been given
+  deriveKey: async function(password, salt=null) {
+    let rawKey = await window.crypto.subtle.importKey(
+        "raw",
+        b64.asciiToBinary(password),
+        { name: "PBKDF2" },
+        false,
+        [ "deriveBits", "deriveKey" ]
+    );
+    return await window.crypto.subtle.deriveKey(
+        {
+          name: "PBKDF2",
+          salt: salt == null ? this.salt : salt,
+          iterations: 100000,
+          hash: "SHA-256"
+        },
+        rawKey,
+        {
+          name: "AES-GCM",
+          length: 256
+        },
+        true,
+        [ "encrypt", "decrypt" ]
+    );
+  },
+
+
+  // Encrypt the text using AES-GCM with a key derived from the password. Takes
+  // in strings for text and password, as well as optional salt and iv. Uses the
+  // static iv for this version if one is not given.
+  encrypt: async function(text, password, salt=null, iv=null) {
+    let key = await this.deriveKey(password, salt=salt);
+    let encryptedBinary = await window.crypto.subtle.encrypt(
+        {
+          name: "AES-GCM",
+          iv: iv == null ? this.iv : iv
+        },
+        key,
+        b64.asciiToBinary(text)
+    );
+    return encryptedBinary;
+  },
+
+
+  // Decrypt the text using AES-GCM with a key derived from the password. Takes
+  // in text as an ArrayBuffer and a string password, as well as optional salt
+  // and iv. Uses the static iv for this version if one is not given.
+  decrypt: async function(text, password, salt=null, iv=null) {
+    let key = await this.deriveKey(password, salt=salt);
+    let decryptedBinary = await window.crypto.subtle.decrypt(
+        {
+          name: "AES-GCM",
+          iv: iv == null ? this.iv : iv
+        },
+        key,
+        new Uint8Array(text)
+    );
+    return b64.binaryToAscii(decryptedBinary);
+  }
+
+}
