@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+html, body {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(27,51,107,1) 100%);
+  color: white;
+  font-family: 'Unbounded', cursive;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+#loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+
+#imageBoxContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 32px;
+
+  width: 100vw;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+h1{
+  margin-bottom: 6px;
+}
+
+a{
+  color: #fff;
+}
+
+.file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  
+  background: linear-gradient(90deg, rgba(213,150,255,1) 0%, rgba(67,124,255,1) 100%);
+  color: black;
+  
+  border-radius: 8px;
+}
+
+.file-upload:hover{
+  filter: brightness(0.9);
+}
+
+.imageBox{
+  width: 30vw;
+  height: 40vw;
+  border: 2px dashed white;
+  border-radius: 12px;
+  
+  background-color: rgba(0,0,0,0.5);
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+.imageBox h3{
+  position: relative;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .imageBox{
+    width: 80vw;
+    height: 100vw;
+  }
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
+}
+.loader::after,
+.loader::before {
+  content: '';  
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #FFF;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: animloader 2s linear infinite;
+}
+.loader::after {
+  animation-delay: 1s;
+}
+
+@keyframes animloader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
