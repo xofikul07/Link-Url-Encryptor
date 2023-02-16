@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image filter remover</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+
+  <script src="script.js" defer></script>
+
+  <script src="https://unpkg.com/jimp@latest/browser/lib/jimp.js"></script>
+</head>
+
+<body>
+  <div id="loading">
+    <span class="loader"></span>
+    <br>
+    <p id="loadingText">Loading model</p>
+  </div>
+  <div id="upload" hidden>
+    <h1>Image filter remover</h1>
+    <a href="https://wandb.ai/coding398/Image%20Classifier/reports/Machine-Learning-Hackathon-Detecting-filters-in-images--VmlldzozNTM1OTQ3">WanDB report</a>
+    
+    <br>
+    
+    <img id="inputImage" width="64" height="64" hidden>
+    <br>
+    <div id="imageBoxContainer">
+      <div class="imageBox" id="inputImageVisual">
+        <h3>Input</h3>
+      </div>
+      <div class="imageBox" id="output">
+        <h3>Output</h3>
+      </div>
+    </div>
+
+    <div id="filters">
+    </div>
+
+    <br>
+    
+    <label class="file-upload">
+        <input type="file" id="input"/>
+        Upload image
+    </label>
+  </div>
+
+  
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
