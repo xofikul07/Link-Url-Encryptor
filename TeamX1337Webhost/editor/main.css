@@ -13,7 +13,7 @@
 html, body {
   
 
-  padding: 11px;
+  padding: 8px;
   display: block;
   margin: auto;
   max-width: 66ch;
@@ -50,7 +50,7 @@ max-width: none;
 width:100&;
   height:50vh%;
   color: blue;
-  padding-top: 12px;
+  padding-top: 1px;
   font-size: 17px;
   background-color:#263238 ;
  display: block;
@@ -62,7 +62,8 @@ width:100&;
 
 iframe {
   width: 100%;
-  height: 70%;
+  height: 100%;
+  background-color: wheat;
 }
 
 textarea, iframe {
@@ -80,5 +81,5 @@ textarea, iframe {
 }
 
 a, button{
-  display: inline-block;padding:1px;margin: 1px; font-size: 5px; font-weight: bold; text-align: center; text-decoration: none; background-color: #4CAF50; color: #FFFFFF; border: none; border-radius: 5px;"
+  display: inline-block;padding:15px;margin: 1px; font-size: 8px; font-weight: bold; text-align: center; text-decoration: none; background-color: steelblue; color: white; border: none; border-radius: 5px;"
 }
