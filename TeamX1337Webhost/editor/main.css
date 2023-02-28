@@ -1,29 +1,42 @@
-.marquee{
-  font-size: 100px;
+
+::placeholder{
+  color:cyan;
+  
 }
 
-
 * {
-  margin: 0px;
-  box-sizing: border-box;
-  vertical-align: bottom;
+  
+ 
+ 
 }
 
 html, body {
-  height: 100%;
+  
+
+  padding: 11px;
+  display: block;
+  margin: auto;
+  max-width: 66ch;
   background-color: #2a3950;
-  margin-top:5px;
-  margin-bottom: 5px;
+  color:white;
+  
+  
+  
+  
+  
+  
+}
+
+ 
+  
+  
   
   
 }
 
 #textboxes {
-  height: 40%;
-  max-width: 100%;
-  font-size: 0px;
-  margin: 20px;
- border:12px;
+
+  
   
 }
 
@@ -31,43 +44,41 @@ html, body {
 
 
 textarea {
-  margin-top:10px;
+
   resize: none;
-  width: 33.3333%;
-  height: 100%;
-  color:blue;
+max-width: none;
+width:100&;
+  height:50vh%;
+  color: blue;
   padding-top: 12px;
   font-size: 17px;
-  background-color: blanchedalmond;
-  
-  
+  background-color:#263238 ;
+ display: block;
+ margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+ 
 }
 
 iframe {
   width: 100%;
-  height: 60%;
+  height: 70%;
 }
 
 textarea, iframe {
-  border: 5px dotted;
-  color:blue;
+  border: 3px dashed;
+  color:cyan;
   margin-top: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  
+  
+  
+  
+  
   
  
 }
 
-a, button {
-background: #416094;
-color: whitesmoke;
-text-decoration: none;
-margin-top: 15px;
-padding: 25px;
-margin-left: 20px;
-font-style: bold
-fon
-border: 5px dashed;
-font-size:25px;
-
-  
+a, button{
+  display: inline-block;padding:1px;margin: 1px; font-size: 5px; font-weight: bold; text-align: center; text-decoration: none; background-color: #4CAF50; color: #FFFFFF; border: none; border-radius: 5px;"
 }
-
