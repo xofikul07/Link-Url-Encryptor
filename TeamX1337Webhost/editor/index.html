@@ -37,10 +37,7 @@
 
 
 
-
-
-<marquee style="color:#4db8bb"  margin-bottom="12px" font-size:575px;><strong>Tools Customized & Developed By : Shofikul Islam. Ui Ux Designer And Devloper Android App.  All Copyright Reserved By Teamx 1337 </strong> </marquee>
-
+<marquee style="color:#4db8bb"  margin-bottom="12px" font-size:575px;><strong>Tools Developed By : Shofikul Islam. Ui Ux Designer And Devloper Android App.  All Copyright Reserved By Teamx 1337 </strong> </marquee>
 
 <!==Shofikul Tab==!>
 
@@ -55,53 +52,80 @@
 
 
 
-
-
-
-
 <body onload="initialize()">
+  
+  
+  
   <!-- Top row of code entry boxes -->
+  
+  
+  
   <div id="textboxes" onkeyup="update()">
     <textarea id="html" placeholder="Write Or Paste Your Html Code Here." rows="9"></textarea>
-    <textarea id="css" placeholder="Write Or Paste Your CSS Code Here" rows="9"></textarea>
+    <br>
+    
+    
+    
+    <textarea id="css" styhle="width: 355px" placeholder="Write Or Paste Your CSS Code Here" rows="9"></textarea>
+    
+   
+    
+    <br>
     <textarea id="javascript" placeholder="Write Your JavaScript Code Here" rows="9"></textarea>
   </div>
-
+  
+  
+  
   
 
+  <!==Button Click Start Here==!>
 
 
+<br><br>
     <!-- Seemingly random attributes necessary for TinyUrl to accept the
          request -->
     <form action="https://tinyurl.com/create.php" method="get" target="_blank">
       <input type="hidden" id="source" name="source" value="indexpage">
       <input type="hidden" name="url" id="url" />
-      <button onclick="setCodeUrl()">Short Link to Editor</button>
-      <button onclick="setViewUrl()">Short Link to Page</button>
-    </form>
+     
+     
+     
+      
+      
+      <a onclick="setCodeUrl()" style="float: left; color: #f2f2f2; text-align: center; padding: 8px 18px; text-decoration: none;" href="https://tinyurl.com/Lock-Link12">Short Link</a>
+   
+      
+      
+      <a onclick="setViewUrl()" style="float: left; color: #f2f2f2; text-align: center; padding: 8px 18px; text-decoration: none;" href="https://tinyurl.com/Lock-Link12">save panel link</a>
+   
+     
 
- <a id="getLinkLink" style="float: left; color: #f2f2f2; text-align: center; padding: 8px 18px; text-decoration: none;" href="" target="_blank">View page</a>
+
+    <a id="getLinkLink" style="float: left; color: #f2f2f2; text-align: center; padding: 8px 18px; text-decoration: none;" href="" target="_blank">View page</a>
 
  
 
 
 <a onclick="showCopyCodePrompt()" style="float: left; color: #f2f2f2; text-align: center; padding: 8px 18px; text-decoration: none;" href="https://tinyurl.com/Lock-Link12">Copy Code</a>
    
-
-
-
-
-    
+   
+  <button><a id="downloadLink" href="" target="_blank" download="export.html">Download Code</a></button>
+   
+   
+   
+   
 
   </div>
 
 
-
-
-
-  <iframe></iframe>
+<iframe></iframe>
+  
+  
 </body>
 
 </html>
+
+
+
 
 
