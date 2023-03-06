@@ -10,18 +10,7 @@
   <meta name="theme-color" content="#002A50">
   <meta name="msapplication-navbutton-color" content="#002A50">
   <meta name="apple-mobile-web-app-status-bar-style" content="#002A50">
-  <script>
-    window.addEventListener('beforeunload', function(e) {
-      // Cancel the event
-      e.preventDefault();
-      // Chrome requires returnValue to be set
-      e.returnValue = '';
-      // Show confirmation dialog
-      var confirmationMessage = 'Are you sure you want to leave this page?';
-      e.returnValue = confirmationMessage;
-      return confirmationMessage;
-    });
-  </script>
+ 
 
 
 
